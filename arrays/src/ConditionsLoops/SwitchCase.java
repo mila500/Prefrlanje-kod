@@ -1,0 +1,56 @@
+package ConditionsLoops;
+
+public class SwitchCase 
+{
+	public static void main(String[] args) 
+	{
+		Integer num = 3;
+		switch (num) 
+		{
+		case 0:
+			System.out.println("Zero");
+			break;
+
+		case 1:
+			System.out.println("One");
+			break;
+			
+		case 2:
+			System.out.println("Two");
+			break;
+			
+		case 3:
+			System.out.println("Three");
+			break;
+			
+		case 4:
+			System.out.println("Four");
+			break;
+			
+		default:
+			System.out.println("The number is not on the list");
+			break;
+		}
+		
+		
+		String number = "two";
+		switch (number)
+		{
+		case "one":
+			System.out.println(1);
+			break;
+			
+		case "two":
+			System.out.println(2);
+			break;
+			
+		case "three":
+			System.out.println(3);
+			break;
+			
+		default:
+			System.out.println("number doesn't exist");
+			break;
+		}
+	}
+}
